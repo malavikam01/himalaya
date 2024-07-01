@@ -1,0 +1,109 @@
+{
+    --typeHeaderPrimary: "Libre Franklin";
+    --typeHeaderFallback: sans-serif;
+    --typeHeaderSize: 38px;
+    --typeHeaderWeight: 400;
+    --typeHeaderLineHeight: 1;
+    --typeHeaderSpacing: 0.025em;
+    --typeBasePrimary: "Libre Franklin";
+    --typeBaseFallback: sans-serif;
+    --typeBaseSize: 15px;
+    --typeBaseWeight: 400;
+    --typeBaseSpacing: 0.025em;
+    --typeBaseLineHeight: 1.6;
+    --typeCollectionTitle: 24px;
+    --iconWeight: 4px;
+    --iconLinecaps: miter;
+    --buttonRadius: 0px;
+    --colorGridOverlayOpacity: 0.2;
+}
+@media only screen and (min-width: 769px) {
+    :root {
+        --grid-gutter: 22px;
+        --drawer-gutter: 30px;
+    }
+}
+:root {
+    --colorBtnPrimary: #006666;
+    --colorBtnPrimaryLight: #009999;
+    --colorBtnPrimaryDim: #004c4d;
+    --colorBtnPrimaryText: #ffffff;
+    --colorCartDot: #ff4f33;
+    --colorLink: #333333;
+    --colorTextBody: #333333;
+    --colorPrice: #48cab2;
+    --colorTextSavings: #ff4e4e;
+    --colorSaleTag: #ff6600;
+    --colorSaleTagText: #ffffff;
+    --colorBody: #ffffff;
+    --colorBodyDim: #f2f2f2;
+    --colorFooter: #eef2f0;
+    --colorFooterText: #66765f;
+    --colorBorder: #e8e8e1;
+    --colorNav: #ffffff;
+    --colorNavText: #66765f;
+    --colorAnnouncement: #ff7451;
+    --colorAnnouncementText: #ffffff;
+    --colorHeroText: #ffffff;
+    --colorModalBg: #e6e6e6;
+    --colorImageOverlay: #006666;
+    --colorImageOverlayOpacity: 0;
+    --colorImageOverlayTextShadow: .24;
+    --colorSmallImageBg: #e5e5e5;
+    --colorLargeImageBg: #0f0f0f;
+    --colorGridOverlay: #000000;
+    --colorGridOverlayOpacity: .1;
+    --colorDrawers: #ffffff;
+    --colorDrawersDim: #f2f2f2;
+    --colorDrawerBorder: #e8e8e1;
+    --colorDrawerText: #66765f;
+    --colorDrawerTextDark: #414c3d;
+    --colorDrawerButton: #48cab2;
+    --colorDrawerButtonText: #ffffff;
+    --grid-gutter: 17px;
+    --drawer-gutter: 20px;
+    --sizeChartMargin: 25px 0;
+    --sizeChartIconMargin: 5px;
+    --newsletterReminderPadding: 40px;
+    --color-body-text: #333333;
+    --color-body: #ffffff;
+    --color-bg: #ffffff;
+}
+body, html {
+    background-color: #fff;
+    background-color: var(--colorBody);
+    color: #333;
+    color: var(--colorTextBody);
+}
+html {
+    touch-action: manipulation;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+}
+*, :after, :before, input {
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "en";
+    direction: ltr;
+}
+user agent stylesheet
+[dir="ltr" i] {
+    unicode-bidi: isolate;
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, :after, :before, input {
+    box-sizing: border-box;
+}
+*, :after, :before, input {
+    box-sizing: border-box;
+}
